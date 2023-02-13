@@ -16,32 +16,32 @@ class ImageSeeder extends Seeder
     {
         Image::create([
             'name' => 'Nasi Goreng Ayam',
-            'file' => '',
+            'file' => "storage/images/1676275339.jpg",
             'enable' => '1'
         ]);
         Image::create([
             'name' => 'Mie Tektek Sosis',
-            'file' => '',
+            'file' => "storage/images/1676278735.jpg",
             'enable' => '1'
         ]);
         Image::create([
             'name' => 'Banana Split',
-            'file' => '',
+            'file' => "storage/images/1676275350.jpg",
             'enable' => '1'
         ]);
         Image::create([
             'name' => 'Pink Lava',
-            'file' => '',
+            'file' => "storage/images/1676275381.jpg",
             'enable' => '1'
         ]);
         Image::create([
             'name' => 'Cappucino Ice',
-            'file' => '',
+            'file' => "storage/images/1676275398.jpg",
             'enable' => '1'
         ]);
         Image::create([
             'name' => 'Telur Gulung',
-            'file' => '',
+            'file' => "storage/images/1676275480.jpg",
             'enable' => '1'
         ]);
     }
