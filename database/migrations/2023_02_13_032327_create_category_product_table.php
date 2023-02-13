@@ -15,7 +15,9 @@ class CreateCategoryProductTable extends Migration
     {
         Schema::create('category_product', function (Blueprint $table) {
             $table->integer('product_id')->index();
+            $table->foreign('product_id')->references('id')->on('product');
             $table->integer('category_id')->index();
+            $table->foreign('category_id')->references('id')->on('category');
             $table->timestamps();
         });
     }
